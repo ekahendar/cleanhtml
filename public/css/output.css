@@ -433,18 +433,18 @@ html {
 }
 
 :root {
-  --p: 331 100% 48%;
-  --pf: 331 100% 41%;
-  --sf: 334 37% 34%;
-  --af: 139 16% 36%;
-  --nf: 44 100% 1%;
-  --b2: 0 4% 84%;
-  --b3: 0 4% 77%;
-  --bc: 0 0% 18%;
-  --pc: 347 100% 93%;
-  --sc: 340 30% 88%;
-  --ac: 136 12% 88%;
-  --nc: 37 10% 80%;
+  --p: 262 80% 50%;
+  --pf: 262 80% 43%;
+  --sf: 316 70% 43%;
+  --af: 175 70% 34%;
+  --nf: 213 18% 13%;
+  --b2: 224 64% 26%;
+  --b3: 224 64% 19%;
+  --bc: 240 30% 87%;
+  --pc: 268 87% 91%;
+  --sc: 325 84% 92%;
+  --ac: 173 30% 11%;
+  --nc: 215 5% 82%;
   --inc: 202 34% 14%;
   --suc: 152 31% 13%;
   --wac: 39 47% 13%;
@@ -459,10 +459,10 @@ html {
   --border-btn: 1px;
   --tab-border: 1px;
   --tab-radius: 0.5rem;
-  --s: 334 37% 41%;
-  --a: 139 16% 43%;
-  --n: 44 100% 8%;
-  --b1: 0 4% 91%;
+  --s: 316 70% 50%;
+  --a: 175 70% 41%;
+  --n: 213 18% 20%;
+  --b1: 224 64% 33%;
   --in: 198 93% 60%;
   --su: 158 64% 52%;
   --wa: 43 96% 56%;
@@ -949,6 +949,11 @@ html {
   border-radius: 9999px;
 }
 
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
 .bg-neutral {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--n) / var(--tw-bg-opacity));
@@ -959,14 +964,14 @@ html {
   background-color: hsl(var(--p) / var(--tw-bg-opacity));
 }
 
+.bg-warning {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--wa) / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-slate-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-60 {
@@ -983,6 +988,10 @@ html {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-4 {

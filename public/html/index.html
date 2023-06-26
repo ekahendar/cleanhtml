@@ -31,11 +31,13 @@
     </div>
   </div>
   <div>
+    <div class="bg-white p-5">
     <h1 style="color: green">GeeksforGeeks</h1>
     <b>How to toggle a boolean using JavaScript?</b>
     <p>The boolean is toggled whenever the button is pressed.</p>
-    <p>See the console for the output</p>
-    <button class="bg-slate-500 p-4 rounded-full" onclick="toggle()">Toggle Bool</button>
+    <p id="lihat" class="p-4 bg-primary p1">See the console for the output</p>
+    </div>
+    <button class="bg-blue-500 p-4 rounded-full" onclick="myFunction()">Toggle Bool</button>
   </div>  
   <script>
     let testBool = true;
@@ -44,7 +46,29 @@
     function toggle() {
       testBool = testBool ? false : true;
       console.log('Toggled bool is',testBool);
-    }
+      if (testBool == true) {
+        p1.style.backgroundColor = "green";
+      }
+      else {
+        p1.style.backgroundColor ='red';
+      };
+    };
+
+    function myFunction() {
+  var element = document.getElementById('lihat');
+  element.classList.toggle("bg-warning");
+  testBool = testBool ? false : true;
+      console.log('Toggled bool is',testBool);
+      if (testBool == true) {
+        element.innerHTML = "NYALA";
+      }
+      else {
+        element.innerHTML = "MATI";
+      };
+}
+
+    const p1 = document.querySelector('.p1');
+    p1.onclick = toggle;
   </script>
 </body>
 </html>
