@@ -22,49 +22,29 @@
               Profile
             </summary>
             <ul class="p-2 bg-white">
-              <li><a>Link 1</a></li>
-              <li><a>Link 2</a></li>
+              <li><a>SETTING</a></li>
+              <li><a>LOGOUT</a></li>
             </ul>
           </details>
         </li>
       </ul>
     </div>
   </div>
-  <h1 style="color: green">
-    GeeksforGeeks
-  </h1>
-  
-  <b>
-    How to toggle a boolean
-    using JavaScript? 
-  </b>
-  
-  <p>
-    The boolean is toggled
-    whenever the button is
-    pressed.
-  </p>
-  
-<p>
-    See the console
-    for the output
-</p>
-
-<button onclick="toggle()">
-    Toggle Bool
-</button>
-  
-<script>
+  <div>
+    <h1 style="color: green">GeeksforGeeks</h1>
+    <b>How to toggle a boolean using JavaScript?</b>
+    <p>The boolean is toggled whenever the button is pressed.</p>
+    <p>See the console for the output</p>
+    <button class="bg-slate-500 p-4 rounded-full" onclick="toggle()">Toggle Bool</button>
+  </div>  
+  <script>
     let testBool = true;
-    console.log('Default value of bool is',
-                testBool);
+    console.log('Default value of bool is',testBool);
   
     function toggle() {
-        testBool = testBool ? false : true;
-          
-        console.log('Toggled bool is',
-                            testBool);
+      testBool = testBool ? false : true;
+      console.log('Toggled bool is',testBool);
     }
-</script>
+  </script>
 </body>
 </html>
