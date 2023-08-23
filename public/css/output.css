@@ -2792,6 +2792,14 @@ html {
   margin-top: 2rem;
 }
 
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-0\.5 {
+  margin-top: 0.125rem;
+}
+
 .block {
   display: block;
 }
@@ -2868,6 +2876,10 @@ html {
   width: 100%;
 }
 
+.w-64 {
+  width: 16rem;
+}
+
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -2907,6 +2919,10 @@ html {
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.place-content-center {
+  place-content: center;
 }
 
 .items-center {
@@ -3040,6 +3056,11 @@ html {
      object-fit: cover;
 }
 
+.object-center {
+  -o-object-position: center;
+     object-position: center;
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -3087,6 +3108,11 @@ html {
   padding-bottom: 2rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .pl-3 {
   padding-left: 0.75rem;
 }
@@ -3097,6 +3123,10 @@ html {
 
 .text-center {
   text-align: center;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .text-2xl {
