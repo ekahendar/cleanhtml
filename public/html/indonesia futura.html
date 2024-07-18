@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../css/output.css" rel="stylesheet">
   <title>BYTES</title>
+  
 </head>
+
 <body class="bg-light">
 	<!-- navigasi -->
   <nav class="bg-white p-4 navbar shadow h-1/5">
@@ -38,12 +40,14 @@
 			</div>
     </div>
   </nav>
+  <!--carousel-->
   <div class="container mx-auto h-4/5">
-    <div class="carousel">
+    <div class="carousel w-full h-[480px]">
+      <!--slide 1-->
       <div id="slide1" class="carousel-item relative w-full">
-        <img src="../img/picture/wr1.jpg" class="" /> <!--gambar yasuo-->
-        <div class="absolute flex-auto mx-24 mt-24">
-          <div class="grid grid-cols-2 sm:grid-cols-3 gap-6">
+        <img src="../img/picture/wr1.jpg" class="w-full" />
+        <div class="absolute container mt-5 px-20">
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-10">
             <div class="bg-gray-200 p-4 rounded-lg shadow">
               <h3 class="text-md font-semibold">Product 1</h3>
               <p class="text-gray-600">Description of Product 1.</p>
@@ -88,79 +92,43 @@
             </div>
           </div>
         </div>
-        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide4" class="btn btn-circle">❮</a> 
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide4" class="btn btn-circle">❮</a>
           <a href="#slide2" class="btn btn-circle">❯</a>
         </div>
-      </div> 
+      </div>
+      <!--slide 2-->
       <div id="slide2" class="carousel-item relative w-full">
-        <img src="../img/picture/wr2.jpg" class="w-full" />
-        <div class="absolute flex-auto mx-20 mt-24">
-          <div class="grid grid-cols-2 sm:grid-cols-3 gap-6">
-            <div class="bg-gray-200 p-4 rounded-lg shadow">
-              <h3 class="text-md font-semibold">Product 1</h3>
-              <p class="text-gray-600">Description of Product 1.</p>
-              <p class="text-gray-800 font-semibold mt-2">$19.99</p>
-              <div class="mt-2">
-                <label for="product1Size" class="text-sm font-medium">Select Size:</label>
-                <select id="product1Size" class="block mt-1 w-full p-2 border rounded">
-                  <option>Small</option>
-                  <option>Medium</option>
-                  <option>Large</option>
-                </select>
-              </div>
-              <button class="bg-blue-500 text-white py-1 px-4 mt-2 rounded">Add to Cart</button>
-            </div>
-            <div class="bg-gray-200 p-4 rounded-lg shadow">
-              <h3 class="text-md font-semibold">Product 2</h3>
-              <p class="text-gray-600">Description of Product 2.</p>
-              <p class="text-gray-800 font-semibold mt-2">$24.99</p>
-              <div class="mt-2">
-                <label for="product2Size" class="text-sm font-medium">Select Size:</label>
-                <select id="product2Size" class="block mt-1 w-full p-2 border rounded">
-                  <option>Small</option>
-                  <option>Medium</option>
-                  <option>Large</option>
-                </select>
-              </div>
-              <button class="bg-blue-500 text-white py-1 px-4 mt-2 rounded">Add to Cart</button>
-            </div>
-            <div class="bg-gray-200 p-4 rounded-lg shadow">
-              <h3 class="text-md font-semibold">Product 1</h3>
-              <p class="text-gray-600">Description of Product 1.</p>
-              <p class="text-gray-800 font-semibold mt-2">$19.99</p>
-              <div class="mt-2">
-                <label for="product1Size" class="text-sm font-medium">Select Size:</label>
-                <select id="product1Size" class="block mt-1 w-full p-2 border rounded">
-                  <option>Small</option>
-                  <option>Medium</option>
-                  <option>Large</option>
-                </select>
-              </div>
-              <button class="bg-blue-500 text-white py-1 px-4 mt-2 rounded">Add to Cart</button>
-            </div>
-          </div>
-        </div>
-        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide1" class="btn btn-circle">❮</a> 
+        <img
+          src="../img/picture/wr2.jpg"
+          class="w-full" />
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide1" class="btn btn-circle">❮</a>
           <a href="#slide3" class="btn btn-circle">❯</a>
         </div>
-      </div> 
+      </div>
+      <!--slide 3-->
       <div id="slide3" class="carousel-item relative w-full">
-        <img src="../img/picture/wr3.jpg" class="w-full" />
-        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide2" class="btn btn-circle">❮</a> 
+        <img
+          src="../img/picture/wr3.jpg"
+          class="w-full" />
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide2" class="btn btn-circle">❮</a>
           <a href="#slide4" class="btn btn-circle">❯</a>
         </div>
-      </div> 
+      </div>
+      <!--slide 4-->
       <div id="slide4" class="carousel-item relative w-full">
-        <img src="../img/picture/wr4.jpg" class="w-full" />
-        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide3" class="btn btn-circle">❮</a> 
+        <img
+          src="../img/picture/wr4.jpg"
+          class="w-full" />
+        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+          <a href="#slide3" class="btn btn-circle">❮</a>
           <a href="#slide1" class="btn btn-circle">❯</a>
         </div>
       </div>
     </div>
   </div>
+  
 </body>
 </html>
